@@ -1,5 +1,19 @@
 # jfiglet
 
+---
+This is a fork of the repository from [lalyos/jfiglet](https://github.com/lalyos/jfiglet).
+It provides a module-info file for JPMS (The original had a commit for this, but it wasn't released so JitPack wasn't picking up).
+
+To use this dependency, add the JitPack repository to your Maven project and then add the following dependency:
+```xml
+<dependency>
+    <groupId>com.github.SiriusIndustries</groupId>
+    <artifactId>jfiglet</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+---
+
 Java implementation of FIGfonts to create ascii art banners. My goals were:
 
 - distributed as a maven dependency
