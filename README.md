@@ -9,7 +9,7 @@ To use this dependency, add the JitPack repository to your Maven project and the
 <dependency>
     <groupId>com.github.SiriusIndustries</groupId>
     <artifactId>jfiglet</artifactId>
-    <version>1u2</version>
+    <version>1u3</version>
 </dependency>
 ```
 ---
