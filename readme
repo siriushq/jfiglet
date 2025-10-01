@@ -1,0 +1,43 @@
+siriushq/jfiglet
+================
+
+	This is a fork of the repository from lalyos/jfiglet <https://github.com/lalyos/jfiglet>.
+
+	It provides a module-info file for JPMS (the original had the commit for this, but it was never released).
+	The module name is kept the same, for if an official release is ever published.	
+
+	The latest release is 0.1.0, one increment over their last release (from Apr 15, 2022).
+
+	pom.xml ===================================================
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<dependency>
+		<groupId>cam.sirius</groupId>
+		<artifactId>jfiglet</artifactId>
+		<version>0.1.0</version>
+	</dependency>
+	===========================================================
+
+	module-info.java ==================
+	requires com.github.lalyos.jfiglet;
+	===================================
+
+what is jfiglet?
+================
+
+	This is a Java implementation of FIGfonts to create ASCII art banners, including:
+	- `figlet`, small CLI tool for generating banners
+	-  `com.github.lalyos.jfiglet.FigletFont`, programmatic usage.
+
+contributing
+============
+
+	Contributions are accepted.
+	
+	Sign off all of your commits with the `Signed-off-by` message footer,
+	and submit a PR proposing your change.
